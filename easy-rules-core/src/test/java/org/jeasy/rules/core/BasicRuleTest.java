@@ -34,6 +34,7 @@ public class BasicRuleTest extends AbstractTest {
     @Test
     public void basicRuleEvaluateShouldReturnFalse() {
         BasicRule basicRule = new BasicRule();
+        //test fork
         assertThat(basicRule.evaluate(facts)).isFalse();
     }
 
